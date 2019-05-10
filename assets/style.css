@@ -44,6 +44,12 @@ main {
   }
 }
 
+@media (min-width: 1000px) {
+  main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
 /* card */
 
 .card {
